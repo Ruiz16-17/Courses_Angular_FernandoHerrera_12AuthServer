@@ -42,3 +42,7 @@ app.get( '*', (req, res) => {
 app.listen(process.env.PORT, () => {
     console.log(`Server started at port ${ process.env.PORT }`)
 });
+
+//Para revisar los logs de heroku (1000 se refiere a las líneas que va a mostrar)
+//heroku logs -n 1000 --tail
+//ruiz1617-angular-auth
